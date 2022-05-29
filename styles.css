@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
 * {
     box-sizing: border-box;
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     background-color:aliceblue
@@ -51,4 +54,47 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 
+=======
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    background-color: #71a5bf;
+    color: whitesmoke;
+    text-align: center;
+    height: 400px;
+}
+
+.header h1 {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.header-paragraph {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+}
+
+.header-button {
+    background-color: rgb(237, 237, 237);
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    border: none;
+    border: solid 1px rgb(161, 160, 160);
+    box-shadow: 5px 5px 30px 1px rgba(184, 178, 178, 0.8);
+>>>>>>> 91b4d94 (Complete header)
 }
