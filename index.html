@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img class="logo" src="logo.svg" width="30" height="30" alt="logo">
+        <img class="logo" src="./images/logo.svg" width="30" height="30" alt="logo">
         <nav>
             <ul class = "nav_links">
                 <li class="sub"><a href="#" class="sub">Services</a></li>
@@ -17,7 +17,7 @@
                 <li class="sub"><a href="#" class="sub">About</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button class="contact sub" >Contact</button></a>
+        <a class="cta" href="#"><button class="contact sub">Contact</button></a>
     </div>
 
     <div class="header-content"> 
@@ -30,16 +30,22 @@
             </p> 
         </div>
         <div class="buttons">
-            <button class="header-button"> 
+            <a href="./views/room.ejs">
+                 <button class="header-button"> 
                 Login
-            </button>
+                </button>
+            </a>
             <button class="header-button"> 
                 Signup
             </button>
         </div>
     </div>
-    <div class="content"></div>
-    <div>hello</div>
+    <div class="content">
+        <img src="./images/temp.jpg" class="content-image">
+        <div class="content-desc">
+            <p>Private, secure, interview service.....</p>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
