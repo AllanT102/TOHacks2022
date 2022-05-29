@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
     background-color:aliceblue
@@ -14,7 +13,7 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,8 +41,7 @@ header {
     color:aqua
 }
 
-button {
-    padding: 9px 25px;
+.contact    padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
@@ -51,10 +49,9 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.contact:hover {
     background-color: rgba(0, 136, 169, 0.8);
 
-=======
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -96,5 +93,4 @@ html, body {
     border: none;
     border: solid 1px rgb(161, 160, 160);
     box-shadow: 5px 5px 30px 1px rgba(184, 178, 178, 0.8);
->>>>>>> 91b4d94 (Complete header)
 }
