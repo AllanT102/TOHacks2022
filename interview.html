@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="interview.css">
+    <script src="record.js" defer></script>
+    <script src="interview.js" defer> </script>
 </head>
 <body>
-    
+    <div class="navbar">
+        <a href="index.html"><img class="logo" src="./images/logo.svg" width="30" height="30" alt="logo"></a>
+        <div class="rightnav">
+            <nav>
+                <ul class = "nav_links">
+                    <li class="sub"><a href="#" class="sub">Services</a></li>
+                    <li class="sub"><a href="#" class="sub">Vision</a></li>
+                    <li class="sub"><a href="#" class="sub">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"><button class="contact sub">Contact</button></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="text-display">
+            <div class="loading-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="options">
+        <button class="load-buttons record">Record</button>
+        <button class="load-buttons stop">Stop Recording</button>
+        <button class="load-buttons"> Load Audio File</button>
+        <button class="load-buttons">Transcribe</button>
+    </div>
 </body>
 </html>

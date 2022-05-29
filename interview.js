@@ -1,3 +1,21 @@
+const recordButton = document.querySelector('.record');
+const stopButton = document.querySelector('.stop')
+
+recordButton.addEventListener('click', () => {
+  blurScreen();
+  recordAudio();
+});
+
+stopButton.addEventListener('click', e => {
+  console.log("hello");
+})
+
+const blurScreen = () => {
+  console.log('hi')
+  const text = document.querySelector(".text-display")
+  text.setAttribute('style', 'opacity: 0')
+}
+
 const recordAudio = () =>
   new Promise(async resolve => {
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
