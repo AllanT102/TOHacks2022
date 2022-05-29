@@ -4,12 +4,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:aliceblue
 }
 
-li, a, button {
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.sub {
     font-size: 16px;
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -18,6 +23,8 @@ li, a, button {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #022d42;
+    margin: 0;
 }
 
 .logo {
@@ -25,7 +32,7 @@ li, a, button {
 }
 
 .nav_links {
-    list-styles none:
+    list-style: none;
 }
 
 .nav_links li {
@@ -41,7 +48,8 @@ li, a, button {
     color:aqua
 }
 
-.contact    padding: 9px 25px;
+.contact {
+    padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
@@ -51,25 +59,19 @@ li, a, button {
 
 .contact:hover {
     background-color: rgba(0, 136, 169, 0.8);
-
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.header {
+.header-content {
     background-color: #71a5bf;
     color: whitesmoke;
     text-align: center;
     height: 400px;
+    margin: 0;
 }
 
-.header h1 {
+.header-content h1 {
     padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 40px;
 }
 
@@ -78,6 +80,7 @@ html, body {
     text-align: center;
     font-size: 25px;
     width: 700px;
+    padding-bottom: 40px;
 }
 
 .header-button {
